@@ -1,0 +1,5 @@
+number = int(input("enter a number :"))
+if 100 <= number <=200:
+  print(f"{number } is in the range of 100 and 200")
+else:
+  print(f"{number} is not in the range of 100 and 200")
