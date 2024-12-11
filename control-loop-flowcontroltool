@@ -1,0 +1,59 @@
+# if statement
+age = 18
+if age >= 18:
+  print("you are eligible to vote.")
+
+#if else statement
+num = int(input("enter a number."))
+if num % 2 == 0:
+  print("number is even.")
+else:
+  print("number is odd.")
+
+#if elif else statement
+marks = int(input("enter your marks."))
+if marks >= 90:
+  print("grade A.")
+elif marks >=75:
+  print("grade B.")
+elif marks >=50:
+  print("grade C.")
+else:
+  print("your fail.")
+
+#for statement
+for i in range(5):
+  print("Iteration:",i)
+#for statement 2 parameter
+for i in range(5,10):
+  print("Iteration:",i)
+#for statement 3 parameter
+for i in range(5,50,5):
+  print("Iteration:",i)
+
+#while statement
+count = 0
+while count < 5:
+  print("count:",count)
+  count += 1
+
+
+#flow control statement
+#break
+for i in range(10):
+  if i == 5:
+    break
+  print("interation: ",i)
+
+#continue
+for i in range(10):
+  if i == 5:
+    continue
+  print("interation: ",i)
+
+#pass(do nothing , used as a place holder)
+for i in range(10):
+  if i == 5:
+    pass
+  print("interation :",i)
+
