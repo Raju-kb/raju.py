@@ -1,0 +1,6 @@
+# write a python program to print "hello" if number is greater than 10,otherwise print "good bye"
+number = int(input("enter a number:"))
+if number >10:
+  print("hello")
+else:
+  print("good bye")
